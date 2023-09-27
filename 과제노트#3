@@ -1,0 +1,18 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+
+{
+	int length, height, area;
+	printf("삼각형 한 변의 길이와 높이를 입력하시오.\n");
+	scanf("%d", &length);
+	scanf("%d", &height);
+
+	area = length * height *0.5;
+	printf("삼각형의 넓이는 %d이다. \n", area);
+
+	return 0;
+}
+
+괄호안의 콤마는 앞에것을 수행하고 뒤에것을 처리한다. 
